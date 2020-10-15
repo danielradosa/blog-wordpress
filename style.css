@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post {
+    padding: 6em;
+    color: black;
+    margin: 0 auto;
+    width: 800px;
+    background-color: burlywood;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    width: 800px;
+}
+
+span {
+    color: rgb(71, 71, 71);
+}
+
+a {
+    color: black;
+    font-size: 1.2vw;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+    text-decoration-style: wavy;
+}
+
+.newer-posts {
+    float: right;
+    padding: 3em;
+}
+
+.older-posts {
+    float: left;
+    padding: 3em;
+}
+
+.newer-posts a {
+    color: black;
+}
+
+.older-posts a {
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-align: center;
+    justify-content: center;
+    margin: 3em;
+    display: flex;
+    color: darkblue;
+}
